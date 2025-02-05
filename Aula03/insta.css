@@ -2,9 +2,35 @@ main {
     display: flexbox;
     align-items: center;
     justify-content: center;
+    border: 2px;
 }
 
 .dados {
-    display: box;
+    display: flex;
     flex-direction: column;
+    width:  270px;
+    height: 32px;
+}
+
+.facebook {
+    background-color: #007bfc ;
+    border-radius: 2px;
+    width:  270px;
+    height: 32px;
+    color: white;
+}
+
+.cadastrar {
+    background-color: #53bdeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  270px;
+    height: 32px;
+    color: white;
+}
+
+.subtitulo {
+    width:  270px;
+    height: 32px;
 }
