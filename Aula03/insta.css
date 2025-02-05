@@ -1,0 +1,10 @@
+main {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados {
+    display: box;
+    flex-direction: column;
+}
